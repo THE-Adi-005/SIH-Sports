@@ -28,8 +28,8 @@ Below are example UI previews for the prototype:
 ![Networking Page](./assets/Network_page.png)
 
 ---
-## Demo video
-![Video](./assets/SIH_Sports_Video.mp4)
+
+[![Demo Video](https://img.youtube.com/vi/4sFgygmo6QQ/0.jpg)](https://www.youtube.com/watch?v=4sFgygmo6QQ)
 
 ---
 
