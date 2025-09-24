@@ -19,13 +19,13 @@ It is designed for **round-one physical screening** where athletes’ performanc
 Below are example UI previews for the prototype:
 
 ### Main Dashboard
-![Main Dashboard](images/main_dashboard.png)
+![Main Dashboard]("C:\Users\Adithya R\Downloads\first_page.png")
 
 ### Live Analysis Page
-![Analyzing Page](images/analysing_page.png)
+![Analyzing Page]("C:\Users\Adithya R\Downloads\Analyse_Page.png")
 
 ### Networking/Backend Connection View
-![Networking Page](images/networking_page.png)
+![Networking Page]("C:\Users\Adithya R\Downloads\Network_page.png")
 
 ---
 
