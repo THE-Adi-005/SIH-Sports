@@ -14,6 +14,11 @@ It is designed for **round-one physical screening** where athletes’ performanc
 - **Simple integration**: Clean JSON outputs with flags indicating pass/fail or measurement values.
 
 ---
+## Live Demo 
+
+https://github.com/user-attachments/assets/5d6ea3d3-1126-4752-b33c-30e4ab48881e
+
+---
 
 ## Demo Screenshots
 Below are example UI previews for the prototype:
@@ -26,11 +31,6 @@ Below are example UI previews for the prototype:
 
 ### Networking/Backend Connection View
 ![Networking Page](./assets/Network_page.png)
-
----
-## Live Demo 
-
-https://github.com/user-attachments/assets/5d6ea3d3-1126-4752-b33c-30e4ab48881e
 
 ---
 
