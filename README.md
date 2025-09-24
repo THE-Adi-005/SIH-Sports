@@ -28,6 +28,10 @@ Below are example UI previews for the prototype:
 ![Networking Page](./assets/Network_page.png)
 
 ---
+## Demo video
+![Video](./assets/SIH_Sports_Video.mp4)
+
+---
 
 ## Tech Stack
 - **Frontend:** React + Vite (runs on `localhost:5173`)  
