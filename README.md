@@ -1,31 +1,81 @@
 # SAI Sports Assessment — Localhost POC (Vite + FastAPI)
 
-Lightweight, offline-first prototype for **sit-ups**, **high (vertical) jump**, and **standing long jump**.
+This is a lightweight **offline-first prototype** for assessing basic sports fitness tests including **sit-ups**, **high (vertical) jump**, and **standing long jump**. The project is built with a modern stack — **React with Vite** for the frontend, and **FastAPI with MediaPipe Pose + OpenCV** for the backend.  
 
-## Stack
-- **Frontend:** React + Vite (localhost:5173)
-- **Backend:** FastAPI + MediaPipe Pose + OpenCV (localhost:8000)
+It is designed for **round-one physical screening** where athletes’ performances are automatically analyzed through the camera and evaluated with simple JSON outputs.
 
-## Run backend
-```bash
+---
+
+## Features
+- **Sit-ups detection**: Counts correct repetitions using pose estimation.
+- **Vertical jump measurement**: Tracks max elevation from baseline using body posture.
+- **Standing long jump estimation**: Approximates distance covered, with height adjustment for improved scaling.
+- **Offline-first prototype**: No dependency on cloud inference, runs locally.
+- **Simple integration**: Clean JSON outputs with flags indicating pass/fail or measurement values.
+
+---
+
+## Demo Screenshots
+Below are example UI previews for the prototype:
+
+### Main Dashboard
+![Main Dashboard](images/main_dashboard.png)
+
+### Live Analysis Page
+![Analyzing Page](images/analysing_page.png)
+
+### Networking/Backend Connection View
+![Networking Page](images/networking_page.png)
+
+---
+
+## Tech Stack
+- **Frontend:** React + Vite (runs on `localhost:5173`)  
+- **Backend:** FastAPI + MediaPipe Pose + OpenCV (runs on `localhost:8000`)  
+
+---
+
+## Getting Started
 cd backend
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+Activate environment
+Windows: .venv\Scripts\activate
+macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-```
 
-## Run frontend
-```bash
+
+### Run Frontend
 cd frontend
 npm install
 npm run dev
-# open http://127.0.0.1:5173
-```
 
-## Usage tips
-- Keep the **camera static** (prop it on a chair/tripod).
-- Ensure **full body** is visible with **good lighting**.
-- For **long jump**, entering athlete height improves distance scaling.
-- Outputs are JSON with simple flags; good enough for round-one screening.
+open http://127.0.0.1:5173
+
+
+---
+
+## Usage Tips
+- Keep the **camera fixed** on a tripod or stable chair for best accuracy.
+- Ensure **good lighting** and a **fully visible body frame** inside the camera.
+- For **long jump**, providing the athlete’s height as input will improve scaling accuracy.
+- Outputs are **basic JSON objects** containing metrics and flags, sufficient for initial evaluation or trial runs.
+
+---
+
+## Example JSON Output
+{
+"exercise": "situps",
+"repetitions": 15,
+"valid_reps": 13,
+"completed": true
+}
+
+
+*********
+## Notes
+- This is an **early stage prototype** aimed at **proof-of-concept testing**.  
+- Optimized for **offline use cases**, with future improvements possible around precision, UI enhancements, and better metric scaling.
+
+
+### Run Backend
