@@ -22,7 +22,7 @@ Below are example UI previews for the prototype:
 ![Main Dashboard](./assets/first_page.png)
 
 ### Live Analysis Page
-![Analyzing Page](./assets/Analyse_page.png)
+![Analyzing Page](./assets/Analyse_Page.png)
 
 ### Networking/Backend Connection View
 ![Networking Page](./assets/Network_page.png)
