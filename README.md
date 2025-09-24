@@ -36,6 +36,8 @@ Below are example UI previews for the prototype:
 ---
 
 ## Getting Started
+
+### Run Backend
 cd backend
 python -m venv .venv
 Activate environment
@@ -51,7 +53,6 @@ npm install
 npm run dev
 
 open http://127.0.0.1:5173
-
 
 ---
 
@@ -78,4 +79,3 @@ open http://127.0.0.1:5173
 - Optimized for **offline use cases**, with future improvements possible around precision, UI enhancements, and better metric scaling.
 
 
-### Run Backend
