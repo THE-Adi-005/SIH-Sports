@@ -1,4 +1,4 @@
-# SAI Sports Assessment — Localhost POC (Vite + FastAPI):Tools
+# SAI Sports Assessment — Localhost POC (Vite + FastAPI)
 
 This is a lightweight **offline-first prototype** for assessing basic sports fitness tests including **sit-ups**, **high (vertical) jump**, and **standing long jump**. The project is built with a modern stack — **React with Vite** for the frontend, and **FastAPI with MediaPipe Pose + OpenCV** for the backend.  
 
